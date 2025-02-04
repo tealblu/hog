@@ -1,0 +1,1 @@
+.\venv\Scripts\python.exe -m nuitka --msvc=latest --standalone .\memory_hog.py
