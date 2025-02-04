@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.6.3" nuitka_commercial_version="not installed" mode="accelerated" completion="error exit message (1)" exit_message="Failed unexpectedly in Scons C backend compilation.">
+  <scons_error_reports>
+    <scons_error_report>
+      <command>"C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "__constants.o" -c -std=c11 -flto=8 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\PROGRA~1\WindowsApps\PYTHON~1.0_X\include -I. -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\static_src -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace "__constants.c"</command>
+      <stderr>
+In file included from __constants.c:2:
+C:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "__helpers.o" -c -std=c11 -flto=8 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\PROGRA~1\WindowsApps\PYTHON~1.0_X\include -I. -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\static_src -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace "__helpers.c"</command>
+      <stderr>
+In file included from __helpers.c:4:
+C:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "__loader.o" -c -std=c11 -flto=8 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\PROGRA~1\WindowsApps\PYTHON~1.0_X\include -I. -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\static_src -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace "__loader.c"</command>
+      <stderr>
+In file included from __loader.c:4:
+C:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "module.__main__.o" -c -std=c11 -flto=8 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\PROGRA~1\WindowsApps\PYTHON~1.0_X\include -I. -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\static_src -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace "module.__main__.c"</command>
+      <stderr>
+In file included from module.__main__.c:19:
+C:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "static_src\MainProgram.o" -c -std=c11 -flto=8 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\PROGRA~1\WindowsApps\PYTHON~1.0_X\include -I. -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\static_src -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace "static_src\MainProgram.c"</command>
+      <stderr>
+static_src\MainProgram.c:16:10: fatal error: windows.h: No such file or directory
+   16 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\INDIGO~1\AppData\Local\Packages\PYTHON~1.11_\LOCALC~1\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "static_src\CompiledFunctionType.o" -c -std=c11 -flto=8 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\PROGRA~1\WindowsApps\PYTHON~1.0_X\include -I. -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\static_src -IC:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace "static_src\CompiledFunctionType.c"</command>
+      <stderr>
+In file included from static_src\CompiledFunctionType.c:8:
+C:\Projects\Hog\venv\Lib\SITE-P~1\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+  </scons_error_reports>
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${cwd}\memory_hog.py">
+    <optimization-time pass="1" time="0.06" micro_passes="5" max_branch_merge="31" merged_total="280" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="26" merged_total="51" />
+    <module_usages>
+      <module_usage name="site" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="psutil" finding="absolute" line="5" />
+      <module_usage name="time" finding="absolute" line="6" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="50077696" />
+    <memory_usage name="before_c_code_generation" value="52338688" />
+    <memory_usage name="before_running_scons" value="54206464" />
+  </performance>
+  <data_composer blob_size="1565" total="139">
+    <module_data filename="__bytecode.const" blob_name=".bytecode" blob_size="3" input_size="0" />
+    <module_data filename="__constants.const" blob_name="" blob_size="993" input_size="2346" />
+    <module_data filename="module.__main__.const" blob_name="__main__" blob_size="529" input_size="919" />
+  </data_composer>
+  <command_line>
+    <option value=".\memory_hog.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}\Scripts\python.exe" python_flavor="CPython Official" python_version="3.11.9" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.real_prefix}\DLLs" />
+      <path value="${sys.real_prefix}\Lib" />
+      <path value="${sys.real_prefix}" />
+      <path value="${sys.prefix}" />
+      <path value="${sys.prefix}\Lib\site-packages" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}\memory_hog.cmd" />
+</nuitka-compilation-report>
